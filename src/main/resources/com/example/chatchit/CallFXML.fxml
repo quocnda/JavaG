@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.chatchit.CallController">
+   <children>
+      <Polyline fill="#fcfcfc" layoutX="49.0" layoutY="68.0" onMouseClicked="#backToChat" points="-34.5, -28.0, -9.5, -44.0, -9.5, -13.0, -34.5, -28.0" strokeType="INSIDE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Polyline>
+      <Label alignment="CENTER" layoutX="139.0" layoutY="82.0" prefHeight="45.0" prefWidth="122.0" text="Calling...">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="91.0" fitWidth="122.0" layoutX="145.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/dog.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="67.0" fitWidth="73.0" layoutX="163.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pic/cancelcall.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
